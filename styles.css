@@ -1,0 +1,180 @@
+/* main page */
+.thing{
+    position: absolute;
+    left: 350px;
+    top: 5px;
+}
+body{
+    background-color: #9caf88;
+}
+.name{
+    bottom: 10px;
+    position: absolute;
+    border-style: solid;
+    padding: 5px;
+    color: black;
+    border-color: white;
+    width: 400px;
+    text-align: left;
+    font-size: 24px;
+    background-color: teal;
+    height: 360px;
+}
+.about{
+    color: white;
+    font-size: 24pt;
+    text-align: left;
+}
+.skills{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+    border-spacing: 10px;
+    background-color: teal;
+    padding: 20px;
+    border-color: white;
+    border-style: solid;
+}
+.projects{
+    position: absolute;
+    top: 800px;
+    right: 30px;
+    color: white;
+    padding: 10px;
+    border-spacing: 10px;
+    background-color: teal;
+    padding: 5px;
+    border-color: white;
+    border-style: solid;
+}
+.me{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 290px;
+    z-index: 1;
+    border-style: solid;
+    border-color: white;
+}
+.personalaboutme{
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    color: white;
+    border-color: white;
+    background-color: teal;
+    padding: 5px;
+    border-style: solid;
+    width: 650px;
+    font-size: 18pt;
+}
+.contactme{
+    position: absolute;
+    top: 980px;
+    right: 30px;
+    border-color: white;
+    background-color: teal;
+    border-style: solid;
+    width: 380px;
+    text-align: center;
+}
+.contactmecontents{
+    font-size: 18pt;
+    color: white;
+}
+.resume{
+    position: absolute;
+    top: 800px;
+    left: 15px;
+    height: 650px;
+}
+/* main page PC */
+/* main page mobile */
+
+@media only screen and (max-width:980px){
+    body{
+        background-color: #9caf88;
+    }
+    .name{
+        top: 830px;
+        border-style: solid;
+        width: 80%;
+        text-align: center;
+        height: fit-content;
+        margin-left: 8%;
+    }
+    .about{
+        color: white;
+        font-size: 32pt;
+        text-align: center;
+    }
+    .skills{
+        position: absolute;
+        top: 2200px;
+        left: 10%;
+        color: white;
+        border-spacing: 10px;
+        background-color: teal;
+        padding: 25px;
+        border-color: white;
+        border-style: solid;
+        font-size: 42pt;
+        text-align: center;
+        width: 100px;
+    }
+    .projects{
+        position: absolute;
+        top: 3200px;
+        left: 6%;
+        color: white;
+        border-spacing: 10px;
+        background-color: teal;
+        border-color: white;
+        border-style: solid;
+        font-size: 42pt;
+    }
+    .me{
+        top: 25px;
+        width: 710px;
+        left: 13%;
+        z-index: 1;
+    }
+    .personalaboutme{
+        top: 1300px;
+        color: white;
+        border-color: white;
+        background-color: teal;
+        border-style: solid;
+        width: 900px;
+        font-size: 42pt;
+        text-align: center;
+        left: 4%;
+
+    }
+    .contactme{
+        position: absolute;
+        top: 4800px;
+        left: 8%;
+        border-color: white;
+        background-color: teal;
+        border-style: solid;
+        width: 800px;
+        text-align: center;
+        padding: 20px;
+    }
+    .contactmecontents{
+        font-size: 32pt;
+        color: white;
+    }
+    .resume{
+        position: absolute;
+        top: 3550px;
+        left: 1%;
+        height: 1200px;
+        width: 100%;
+    }
+}
+
+/* main page mobile */
